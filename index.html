@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script>
-          var ctx;
-          function init(){
-          var canvas = document.getElementById("canvas"); //(1)
-          ctx = canvas.getContext("2d");
-          ctx.strokeStyle = "#FF0000";
-          ctx.fillStyle = "#00FFFF";
-          ctx.lineWidth = 5;
+        About My First Project.
+   </head>
+    <body>
+        <h1>My name is Takaaki Tanaka.</h1>
 
-          ctx.beginPath();
-          ctx.arc(100,50,30,0,2*Math.PI);
-          ctx.closePath();
-          ctx.fill();
+        <p>My First Project is Learning result of HTML/CSS/JavaScript and Java (Spring framework) combined.</p>
+        <p>It will be updated from time to time aiming for a Ranking system like a social game.</p>
+        <p>One goal is,where Our families will love and share Contents. Therefore, implementing the feedback from the family as a feature will be an important challenge.</p>
+        <h2>screen:</h2>
+        <li>https://github.com/chikarimo/JSPrac1-Public/blob/main/src/main/resources/templates/game/scroll.html</li>
+        <h2>features:</h2>
+        <h3>(Screen linkage function,image processing common function)</h3>
+        <li>https://github.com/chikarimo/JSPrac1-Public/tree/main/src/main/java/com/example/demo/game</li>
 
-          ctx.beginPath();
-          ctx.moveTo(200,50);
-          ctx.arc(200,50,30,0,Math.PI/3);
-          ctx.closePath();
-          ctx.stroke();
+        <h2>■Step ・Front-end (HTML/CSS/JavaScript) content creation.</h2>
+        <ul>
+            <li>Use learning results of Java (Spring Framework) by MVC model including software embedding.</li>
+            <li>Partially replace the front-end content with Thymeleaf tags that have a high affinity with Java (Spring Framework), and check the linkage of the link destination.</li>
+        </ul>
+            
+        <h2>■As an issue Update is in progress.</h2>
+        <ul>
+            <li>Create a table that can manage high scores for each user and create related functions</li>
+            <li>Create a table that can manage the ranking function for each user and create related functions</li>
+            <li>Enhanced UI - Change screen transitions to show that they are linked to the user.</li>
+        </ul>
 
-          ctx.beginPath();
-          ctx.moveTo(300,50);
-          ctx.arc(300,50,30,0,Math.PI/3,true);
-          ctx.closePath();
-          ctx.stroke();
-
-          ctx.beginPath();
-          ctx.moveTo(400,50);
-          ctx.arc(400,50,30,-1*Math.PI/6,Math.PI/6,true);
-          ctx.closePath();
-          ctx.fill();
-      }
-        </script>
-    </head>
-    <body onload="init()">
-        <canvas id="canvas" width="600" height="400"></canvas>
+        <h2>■And More... </h2>
+        <ul>
+            <li>Create a tool that can be used for the game currently being implemented, and implement a function that can keep notes for each user (mainly Monster Hunter and Pokemon, etc.)</li>
+        </ul>
     </body>
 </html>
