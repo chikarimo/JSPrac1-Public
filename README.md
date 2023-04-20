@@ -8,7 +8,7 @@ One goal is,where Our families will love and share Contents.
 Therefore, implementing the feedback from the family as a feature will be an important challenge.
 
 screen:
-https://github.com/chikarimo/JAPrac1-Public/blob/main/src/main/resources/templates/game/scroll.html
+https://github.com/chikarimo/JSPrac1-Public/blob/main/src/main/resources/templates/game/scroll.html
 
 features:
 (Screen linkage function,image processing common function)
